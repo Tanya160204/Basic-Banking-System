@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(152, 15, 243, 0.7),
+      rgba(15, 216, 243, 0.7)
+    ),
+    url("https://kpmg.com/content/dam/kpmgblogs/in/images/post/2022/04/mantra-digital-bank-license-neo-banks.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.logo {
+  min-width: 10vh;
+}
+.logo.p {
+  font-size: 10px;
+  text-align: center;
+  color: black;
+}
+nav {
+  display: flex;
+  padding: 2% 6%;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img {
+  width: 100px;
+}
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 40px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav-links ul li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li :hover::after {
+  width: 100%;
+}
+.heading {
+  text-align: center;
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.heading h1 {
+  font-size: 70px;
+}
+.heading p {
+  margin: 10px 0 40px;
+  font-size: 30px;
+  color: black;
+}
+.heading p::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.heading p:hover::after {
+  width: 40%;
+}
+.heading p:hover {
+  color: #fff;
+}
+.button {
+  display: inline;
+  text-decoration: none;
+  color: white;
+  border: 3px solid black;
+  padding: 12px 34px;
+  font-size: 20px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.button:hover {
+  border: 3px solid #f44336;
+  background: #f44336;
+  transition: 1s;
+}
+
+.body1 {
+  padding-top: 100px;
+  padding-left: 450px;
+  align-items: right;
+}
+.body2 {
+  text-align: center;
+  font-size: 70px;
+  color: #8c5ae9;
+}
+.body3 {
+  text-align: center;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.body31 {
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  font-size: 20px;
+}
+h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 10px 0;
+}
+h3::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+h3:hover::after {
+  width: 50%;
+}
+.body31:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  background-color: #8757e2;
+}
